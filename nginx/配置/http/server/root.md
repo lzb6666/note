@@ -1,0 +1,2 @@
+root 是指定项目的根目录，适用与server和location。可以指定多个，如果
+locaiton没有指定，会往其外层的server或http中寻找继承。
