@@ -7,11 +7,23 @@
         div+p{
             font-size: 20px;
         }
+        #div{
+            height: 200px;
+            width: 100%;
+        }
+        #inner{
+            height: 100%;
+            margin-top: 50%;
+            background-color: #de6116;
+        }
     </style>
 </head>
 <body>
 <input type="text" oninput="console.log(this.value)" />
-<div>
+<div id="div">
+    <div id="inner">
+
+    </div>
     <p>123456</p>
 </div>
 <p>567</p>
